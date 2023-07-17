@@ -12,6 +12,7 @@
   <modules>
     <module>../easymall-common-repository</module>
     <module>../easymall-common-resources</module>
+    <module>../easymall-microservice-product</module>
   </modules>
 
   <parent>
