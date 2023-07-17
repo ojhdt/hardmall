@@ -8,9 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="easymall-microservice-product" />
         <module name="easymall-common-resources" />
-        <module name="eureka-server" />
+        <module name="eureka-server (1)" />
+        <module name="eureka-server (2)" />
         <module name="easymall-common-repository" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
