@@ -9,6 +9,9 @@
 
   <name>easymall-parent</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>../easymall-common-repository</module>
+  </modules>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
