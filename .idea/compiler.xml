@@ -7,11 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="easymall-microservice-product" />
+        <module name="easymall-microservice-cart" />
+        <module name="easymall-micro-zuul" />
+        <module name="easymall-microservice-order" />
+        <module name="zuul-client" />
         <module name="easymall-common-resources" />
+        <module name="easymall-common-rediscluster" />
+        <module name="config-server1" />
+        <module name="easymall-microservice-user" />
+        <module name="easymall-microservice-seckill" />
         <module name="easymall-common-repository" />
+        <module name="easymall-microservice-pic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="easymall-micro-zuul" target="1.5" />
       <module name="eureka-server" target="1.6" />
       <module name="eureka-server (1)" target="1.6" />
       <module name="eureka-server (2)" target="1.6" />

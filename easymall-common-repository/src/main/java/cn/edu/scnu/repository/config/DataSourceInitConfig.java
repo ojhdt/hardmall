@@ -31,6 +31,10 @@ public class DataSourceInitConfig {
 		datasource.setMaxActive(maxActive);//200
 		datasource.setMaxIdle(maxIdle);//8
 		datasource.setMinIdle(minIdle);//3
+//		datasource.setInitialSize(5);//5
+//		datasource.setMaxActive(200);//200
+//		datasource.setMaxIdle(8);//8
+//		datasource.setMinIdle(3);//3
 		return datasource;
 	}
 	//setter&&getter

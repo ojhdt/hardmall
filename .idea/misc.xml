@@ -11,6 +11,14 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-b/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-order-n/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-common-rediscluster/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-micro-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-microservice-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-microservice-order/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-microservice-pic/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-microservice-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/easymall-microservice-user/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -13,15 +13,15 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisShardInfo;
 import redis.clients.jedis.ShardedJedisPool;
 
-@Configuration
-@ConfigurationProperties(prefix = "spring.redis.shardedpool")
+//@Configuration
+//@ConfigurationProperties(prefix = "spring.redis.shardedpool")
 public class ShardeJedisPoolConfig {
 	private List<String> nodes;
 	private Integer maxTotal;
 	private Integer maxIdle;
 	private Integer minIdle;
 	
-	
+	//关于redis的配置类bean对象放置在common-repository里面符合规范
 	public List<String> getNodes() {
 		return nodes;
 	}
@@ -63,8 +63,8 @@ public class ShardeJedisPoolConfig {
 
 
 	
-	@Bean
-	@Primary
+	//@Bean
+	//@Primary
 	public ShardedJedisPool sjPoolInit() {
 		// 利用属性完成连接池的初始化
 		// 第一步 收集节点初始化信息
