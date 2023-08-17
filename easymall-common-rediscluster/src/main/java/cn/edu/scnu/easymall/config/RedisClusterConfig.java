@@ -22,17 +22,21 @@ public class RedisClusterConfig {
 	public JedisCluster initJedisCluster(){
 		//收集节点信息
 		Set<HostAndPort> set=new HashSet<HostAndPort>();
-		for (String node : nodes) {
-			//node="192.168.47.128:8000"
-			String host=node.split(":")[0];
-			Integer port=Integer.
-					parseInt(node.split(":")[1]);
-			set.add(new HostAndPort(host,port));
-		}
+//		for (String node : nodes) {
+//			//node="192.168.47.128:8000"
+//			String host=node.split(":")[0];
+//			Integer port=Integer.
+//					parseInt(node.split(":")[1]);
+//			set.add(new HostAndPort(host,port));
+//		}
+//		set.add(new HostAndPort("127.0.0.1",6379));
+		set.add(new HostAndPort("127.0.0.1",6380));
+//		set.add(new HostAndPort("127.0.0.1",6381));
+
 		GenericObjectPoolConfig config=new GenericObjectPoolConfig();
-		config.setMaxTotal(maxTotal);
-		config.setMaxIdle(maxIdle);
-		config.setMinIdle(minIdle);
+		config.setMaxTotal(200);
+		config.setMaxIdle(8);
+		config.setMinIdle(2);
 		return new JedisCluster(set,config);
 	}
 	

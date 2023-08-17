@@ -40,7 +40,7 @@ public class ProductService {
 	public String queryById(String productId) {
 		// TODO Auto-generated method stub
 		String productKey="product_"+productId;
-		Jedis jedis=new Jedis("192.168.47.128",6379,20000);
+		Jedis jedis=new Jedis("localhost",6379,20000);
 		
 		if(jedis.exists(productKey)) {
 			return jedis.get(productKey);

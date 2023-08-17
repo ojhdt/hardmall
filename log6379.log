@@ -1,0 +1,36 @@
+80086:C 16 Aug 2023 18:04:36.789 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+80086:C 16 Aug 2023 18:04:36.789 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=80086, just started
+80086:C 16 Aug 2023 18:04:36.790 # Configuration loaded
+80086:M 16 Aug 2023 18:04:36.791 * Increased maximum number of open files to 10032 (it was originally set to 256).
+80086:M 16 Aug 2023 18:04:36.791 * monotonic clock: POSIX clock_gettime
+80086:M 16 Aug 2023 18:04:36.794 * Running mode=standalone, port=6379.
+80086:M 16 Aug 2023 18:04:36.794 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+80086:M 16 Aug 2023 18:04:36.794 # Server initialized
+80086:M 16 Aug 2023 18:04:36.795 * Ready to accept connections
+84919:C 16 Aug 2023 18:09:10.883 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+84919:C 16 Aug 2023 18:09:10.884 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=84919, just started
+84919:C 16 Aug 2023 18:09:10.884 # Configuration loaded
+84919:M 16 Aug 2023 18:09:10.886 * Increased maximum number of open files to 10032 (it was originally set to 256).
+84919:M 16 Aug 2023 18:09:10.886 * monotonic clock: POSIX clock_gettime
+84919:M 16 Aug 2023 18:09:10.887 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+84919:M 16 Aug 2023 18:09:10.888 # Failed listening on port 6379 (TCP), aborting.
+80086:signal-handler (1692239202) Received SIGTERM scheduling shutdown...
+80086:M 17 Aug 2023 10:26:42.976 # User requested shutdown...
+80086:M 17 Aug 2023 10:26:42.976 * Saving the final RDB snapshot before exiting.
+80086:M 17 Aug 2023 10:26:42.999 * DB saved on disk
+80086:M 17 Aug 2023 10:26:42.999 * Removing the pid file.
+80086:M 17 Aug 2023 10:26:43.000 # Redis is now ready to exit, bye bye...
+18775:C 17 Aug 2023 10:27:11.976 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+18775:C 17 Aug 2023 10:27:11.976 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=18775, just started
+18775:C 17 Aug 2023 10:27:11.977 # Configuration loaded
+18775:M 17 Aug 2023 10:27:11.978 * Increased maximum number of open files to 10032 (it was originally set to 256).
+18775:M 17 Aug 2023 10:27:11.978 * monotonic clock: POSIX clock_gettime
+18775:M 17 Aug 2023 10:27:11.979 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+18775:M 17 Aug 2023 10:27:11.979 # Failed listening on port 6379 (TCP), aborting.
+23225:C 17 Aug 2023 10:34:01.112 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+23225:C 17 Aug 2023 10:34:01.112 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=23225, just started
+23225:C 17 Aug 2023 10:34:01.112 # Configuration loaded
+23225:M 17 Aug 2023 10:34:01.113 * Increased maximum number of open files to 10032 (it was originally set to 256).
+23225:M 17 Aug 2023 10:34:01.114 * monotonic clock: POSIX clock_gettime
+23225:M 17 Aug 2023 10:34:01.114 # Warning: Could not create server TCP listening socket 127.0.0.1:6379: bind: Address already in use
+23225:M 17 Aug 2023 10:34:01.114 # Failed listening on port 6379 (TCP), aborting.

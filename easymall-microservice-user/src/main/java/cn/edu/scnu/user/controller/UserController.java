@@ -1,5 +1,6 @@
 package cn.edu.scnu.user.controller;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -17,7 +18,7 @@ import cn.edu.scnu.user.service.UserService;
 
 @RestController
 public class UserController {
-	@Autowired
+	@Resource
 	private UserService userService;
 	@RequestMapping("/user/manage/checkUserName")
 	public SysResult checkUsername(String userName) {

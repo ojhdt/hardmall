@@ -1,0 +1,51 @@
+81537:C 16 Aug 2023 18:06:04.970 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+81537:C 16 Aug 2023 18:06:04.970 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=81537, just started
+81537:C 16 Aug 2023 18:06:04.971 # Configuration loaded
+81537:M 16 Aug 2023 18:06:04.972 * Increased maximum number of open files to 10032 (it was originally set to 256).
+81537:M 16 Aug 2023 18:06:04.972 * monotonic clock: POSIX clock_gettime
+81537:M 16 Aug 2023 18:06:04.973 * Running mode=standalone, port=6380.
+81537:M 16 Aug 2023 18:06:04.973 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+81537:M 16 Aug 2023 18:06:04.973 # Server initialized
+81537:M 16 Aug 2023 18:06:04.974 * Ready to accept connections
+81537:signal-handler (1692239217) Received SIGTERM scheduling shutdown...
+81537:M 17 Aug 2023 10:26:57.735 # User requested shutdown...
+81537:M 17 Aug 2023 10:26:57.735 * Saving the final RDB snapshot before exiting.
+81537:M 17 Aug 2023 10:26:57.754 * DB saved on disk
+81537:M 17 Aug 2023 10:26:57.754 * Removing the pid file.
+81537:M 17 Aug 2023 10:26:57.755 # Redis is now ready to exit, bye bye...
+18789:C 17 Aug 2023 10:27:16.498 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+18789:C 17 Aug 2023 10:27:16.498 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=18789, just started
+18789:C 17 Aug 2023 10:27:16.498 # Configuration loaded
+18789:M 17 Aug 2023 10:27:16.500 * Increased maximum number of open files to 10032 (it was originally set to 256).
+18789:M 17 Aug 2023 10:27:16.500 * monotonic clock: POSIX clock_gettime
+18789:M 17 Aug 2023 10:27:16.501 * No cluster configuration found, I'm b71764a03c44148ff10e6f67952c7f552f16ab1e
+18789:M 17 Aug 2023 10:27:16.502 * Running mode=cluster, port=6380.
+18789:M 17 Aug 2023 10:27:16.502 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+18789:M 17 Aug 2023 10:27:16.502 # Server initialized
+18789:M 17 Aug 2023 10:27:16.503 * Loading RDB produced by version 7.0.12
+18789:M 17 Aug 2023 10:27:16.503 * RDB age 19 seconds
+18789:M 17 Aug 2023 10:27:16.503 * RDB memory usage when created 1.04 Mb
+18789:M 17 Aug 2023 10:27:16.503 * Done loading RDB, keys loaded: 0, keys expired: 0.
+18789:M 17 Aug 2023 10:27:16.503 * DB loaded from disk: 0.001 seconds
+18789:M 17 Aug 2023 10:27:16.504 * Ready to accept connections
+18789:signal-handler (1692239484) Received SIGTERM scheduling shutdown...
+18789:M 17 Aug 2023 10:31:24.826 # User requested shutdown...
+18789:M 17 Aug 2023 10:31:24.826 * Saving the final RDB snapshot before exiting.
+18789:M 17 Aug 2023 10:31:24.848 * DB saved on disk
+18789:M 17 Aug 2023 10:31:24.850 * Removing the pid file.
+18789:M 17 Aug 2023 10:31:24.851 # Redis is now ready to exit, bye bye...
+26282:C 17 Aug 2023 10:38:45.534 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+26282:C 17 Aug 2023 10:38:45.534 # Redis version=7.0.12, bits=64, commit=00000000, modified=0, pid=26282, just started
+26282:C 17 Aug 2023 10:38:45.534 # Configuration loaded
+26282:M 17 Aug 2023 10:38:45.536 * Increased maximum number of open files to 10032 (it was originally set to 256).
+26282:M 17 Aug 2023 10:38:45.536 * monotonic clock: POSIX clock_gettime
+26282:M 17 Aug 2023 10:38:45.537 * Node configuration loaded, I'm b71764a03c44148ff10e6f67952c7f552f16ab1e
+26282:M 17 Aug 2023 10:38:45.538 * Running mode=cluster, port=6380.
+26282:M 17 Aug 2023 10:38:45.539 # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+26282:M 17 Aug 2023 10:38:45.539 # Server initialized
+26282:M 17 Aug 2023 10:38:45.539 * Loading RDB produced by version 7.0.12
+26282:M 17 Aug 2023 10:38:45.539 * RDB age 441 seconds
+26282:M 17 Aug 2023 10:38:45.540 * RDB memory usage when created 1.70 Mb
+26282:M 17 Aug 2023 10:38:45.540 * Done loading RDB, keys loaded: 0, keys expired: 0.
+26282:M 17 Aug 2023 10:38:45.540 * DB loaded from disk: 0.001 seconds
+26282:M 17 Aug 2023 10:38:45.540 * Ready to accept connections

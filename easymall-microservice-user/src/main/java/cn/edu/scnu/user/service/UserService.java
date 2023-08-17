@@ -2,6 +2,7 @@ package cn.edu.scnu.user.service;
 
 import java.util.UUID;
 
+import cn.edu.scnu.user.mapper.NewUserMapper;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,10 +19,14 @@ import redis.clients.jedis.JedisCluster;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
+import javax.annotation.Resource;
+
 @Service
 public class UserService {
 	@Autowired
 	private UserMapper userMapper;
+	@Resource
+	private NewUserMapper newUserMapper;
 //	@Autowired
 //	private ShardedJedisPool pool;
 	@Autowired
@@ -31,7 +36,6 @@ public class UserService {
 	private ObjectMapper omapper = MapperUtil.MP;
 	
 	public Integer checkUsername(String userName) {
-		// TODO Auto-generated method stub
 		return userMapper.checkUsername(userName);
 	}
 
