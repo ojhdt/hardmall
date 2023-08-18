@@ -1,6 +1,13 @@
 package com.easymall.common.pojo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "t_user")
 public class User {
+	@Id
 	private String userId;
 	private String userName;
 	private String userPassword;
